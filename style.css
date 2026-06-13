@@ -297,8 +297,6 @@ background:#f4f6f8;
 
 .login-container{
 height:100vh;
-background-image:url('../images/farm-banner.jpg');
-background-size:cover;
 background-position:center;
 }
 
@@ -311,7 +309,7 @@ background:rgba(0,0,0,0.6);
 }
 
 .login-box{
-width:400px;
+width:100px;
 background:white;
 padding:40px;
 border-radius:15px;
@@ -333,7 +331,7 @@ margin-bottom:15px;
 }
 
 .login-box input{
-width:100%;
+width:100px;
 padding:12px;
 margin:10px 0;
 border:1px solid #ccc;
@@ -341,7 +339,7 @@ border-radius:6px;
 }
 
 .login-box button{
-width:100%;
+width:100px;
 padding:12px;
 background:#2e7d32;
 color:white;
