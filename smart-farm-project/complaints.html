@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints - Smart Farm Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>🌱 Smart Farm</h2>
+
+            <a href="index.html">Dashboard</a>
+            <a href="monitoring.html">Monitoring</a>
+            <a href="reports.html">Reports</a>
+            <a href="complaints.html">Complaints</a>
+
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <header>
+                <h1>Complaints Page</h1>
+            </header>
+
+            <!-- Complaint Form -->
+
+            <section class="overview">
+
+                <h2>Submit Complaint</h2>
+
+                <form id="complaintForm">
+
+                    <label>Worker ID</label>
+
+                    <input type="text" id="workerId" placeholder="Enter Worker ID" required>
+
+                    <label>Complaint Category</label>
+
+                    <select id="category" required>
+
+                        <option value="">
+                            Select Category
+                        </option>
+
+                        <option>
+                            Equipment Failure
+                        </option>
+
+                        <option>
+                            Irrigation Problem
+                        </option>
+
+                        <option>
+                            Safety Concern
+                        </option>
+
+                        <option>
+                            Salary Issue
+                        </option>
+
+                        <option>
+                            Other
+                        </option>
+
+                    </select>
+
+                    <label>Complaint Details</label>
+
+                    <textarea id="details" rows="6" placeholder="Describe your complaint..." required>
+                </textarea>
+
+                    <button type="submit">
+
+                        Submit Complaint
+
+                    </button>
+
+                </form>
+
+            </section>
+
+            <!-- Complaint Information -->
+
+            <section class="overview complaint-info">
+
+                <h2>Complaint Guidelines</h2>
+
+                <ul>
+
+                    <li>
+                        Provide accurate information.
+                    </li>
+
+                    <li>
+                        Include your Worker ID.
+                    </li>
+
+                    <li>
+                        Clearly describe the issue.
+                    </li>
+
+                    <li>
+                        Management will review complaints
+                        within 48 hours.
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
