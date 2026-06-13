@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm Reports</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<aside class="sidebar">
+
+<h2>🌱 Smart Farm</h2>
+
+<a href="index.html">Dashboard</a>
+<a href="monitoring.html">Monitoring</a>
+<a href="reports.html">Reports</a>
+
+</aside>
+
+<main class="main-content">
+
+<header>
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<h1>Reports & Settings</h1>
+</header>
+
+<div class="report-banner">
+<img src="images/farmer.jpg" alt="">
+</div>
+
+<form class="report-form">
+
+<input type="text" placeholder="Farm Name">
+
+<input type="text" placeholder="Location">
+<input type="text" placeholder="Crop Stage">
+<input type="text" placeholder="Date/report period ">
+<input type="text" placeholder="Plot ID">
+<input type="text" placeholder="Soil Data">
+
+<select>
+<option>Maize</option>
+<option>Rice</option>
+<option>Tomato</option>
+<option>Cassava</option>
+<option>Peppers</option>
+<option>Carrot</option>
+<option>Yam</option>
+</select>
+
+<button type="submit">
+Submit Report
+</button>
+
+</form>
+
+<div class="cards">
+
+<div class="card">
+<h3>Weekly Report</h3>
+<p>Completed</p>
+</div>
+
+<div class="card">
+<h3>Monthly Report</h3>
+<p>Completed</p>
+</div>
+
+<div class="card">
+<h3>Harvest Report</h3>
+<p>Pending</p>
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
