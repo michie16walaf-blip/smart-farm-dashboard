@@ -309,7 +309,7 @@ background:rgba(0,0,0,0.6);
 }
 
 .login-box{
-width:50px;
+width:500px;
 
 background:gray;
 padding:40px;
@@ -332,7 +332,7 @@ margin-bottom:15px;
 }
 
 .login-box input{
-width:50px;
+width:300px;
 padding:12px;
 margin:10px 10px;
 border:1px solid #ccc;
@@ -341,7 +341,7 @@ border-radius:6px;
 }
 
 .login-box button{
-width:50px;
+width:300px;
 padding:12px;
 background:#2e7d32;
 color:white;
