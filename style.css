@@ -338,6 +338,8 @@ margin:10px 10px;
 border:1px solid #ccc;
 border-radius:6px;
     line-height:30px;
+        diplay:grid;
+    place-items:center;
 }
 
 .login-box button{
@@ -349,6 +351,8 @@ border:none;
 border-radius:6px;
 cursor:pointer;
 font-size:16px;
+    diplay:grid;
+    place-items:center;
 }
 
 .login-box button:hover{
