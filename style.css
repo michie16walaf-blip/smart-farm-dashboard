@@ -339,7 +339,7 @@ border:1px solid #ccc;
 border-radius:6px;
     line-height:30px;
         diplay:grid;
-    place-items:center;
+    justify-content:center;
 }
 
 .login-box button{
@@ -352,7 +352,7 @@ border-radius:6px;
 cursor:pointer;
 font-size:16px;
     diplay:grid;
-    place-items:center;
+    justify-content:center;
 }
 
 .login-box button:hover{
@@ -365,7 +365,8 @@ background:#f5f5f5;
 padding:10px;
 border-radius:8px;
     line-height:30px;
-    width:40px
+    width:400px;
+    justify-content:center;
 }
 
 /* COMMON COLORS */
